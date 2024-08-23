@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+
+p{
+    text-align: justify;
+}
+body{
+    background-image: linear-gradient(to right, blue, white );
+}
+main{
+    background-color: rgb(241, 247, 240);
+    width: 600px;
+    padding: 10px;
+    margin:50px; 
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(9, 9, 9);
+}
+
+h1{
+    color: orange;
+    text-align: center;
+
+}
+h2{ color: yellow;}
+p{    text-align: justify;
+    text-indent: 30px;
+    color: violet;
+}
+div{
+    background-color: rgb(228, 236, 227);
+    width: 600px;
+    padding: 10px;
+    margin:50px; 
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    
+}
+
+
+

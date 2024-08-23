@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>criando links personalizados</title>
+
+    
+
+    <style>
+
+
+/* #  =  id
+   .  =  class
+   :  =  pseudo-class
+   :: = pseudo-elemento
+   >  = children
+*/
+        body{
+            background-color: brown;
+        }
+
+a{
+    color: rgb(12, 5, 61);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color:blueviolet
+}
+a:hover{
+    color: rgb(56, 17, 210);
+    text-decoration: underline;
+}
+a:active{
+    color: antiquewhite;
+}
+   a::after {
+    content: ' [link]';
+    color: beige;
+
+    }
+    a::before {
+content: 'seta '
+    }
+
+
+
+    </style>
+</head>
+<body>
+
+
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="www.facebook.com.br">facebook</a></li>
+        <li><a href="www.youtube.com.br">youtube</a></li>
+        <li><a href="https//:www.instagram.com.br">instagram</a></li>
+    </ul>
+</body>
+</html>
