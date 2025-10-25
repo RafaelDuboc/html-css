@@ -6,13 +6,14 @@
     <title>midia em html</title>
 </head>
 <body>
+    <h1>A tag 'picture' serve para obter imagens responsivas</h1>
 <picture>
     <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
     <source media="(max-width:  1050px)" srcset="imagens/foto-m.png" type="image/png">
         <img src="imagens/foto-g.png" alt="foto g">
     
 </picture>
-
+<p>O atributo controls na tag é um atributo booleano que, quando presente, exibe os controles de reprodução padrão do navegador, como play, pause, volume e barra de progresso. Sem este atributo, o áudio não terá a interface de usuário para interação</p>
 <p>colocando audio</p>
 <audio src="midia/Loping Sting - Kevin MacLeod.mp3" controls></audio>
 
@@ -21,11 +22,12 @@
     <source src="midia/Loping Sting - Kevin MacLeod.mp3" type="audio/mpeg">
     <source src="midia/Loping Sting - Kevin MacLeod.ogg" type="audio/ogg">
     <source src="midia/Loping Sting - Kevin MacLeod.wav" type="audio/wav">
-    <p>Infelizmente seu navegador nao consegue processar o audio
-        <a href="midia/Loping Sting - Kevin MacLeod.mp3"> clique aq para fazer o download</a>
-    </p>
+    
     
 </audio>
+<p>Infelizmente seu navegador nao consegue processar o audio
+        <a href="midia/Loping Sting - Kevin MacLeod.mp3"> clique aq para fazer o download</a>
+    </p>
 
 </body>
 </html>
